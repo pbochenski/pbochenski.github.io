@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "new post"
+date:   2017-04-06 16:35:19 +0200
+summary: "dupa"
+comments: true
+---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu lobortis mi. In iaculis, ligula a rhoncus ornare, est eros maximus odio, a consequat magna urna a nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed id neque vel augue pretium pulvinar. Aenean quam enim, efficitur id nisi et, iaculis finibus ante. Donec sollicitudin leo et tellus cursus, a efficitur eros hendrerit. Curabitur pellentesque dolor urna, in placerat orci suscipit non. Suspendisse potenti. Praesent congue molestie dictum.
+
+Nam a odio non leo interdum placerat. Donec velit urna, pretium id augue bibendum, efficitur accumsan mi. Donec auctor risus a suscipit porta. In sit amet magna arcu. Suspendisse sagittis porta dui, congue commodo nibh porttitor a. Suspendisse auctor sapien nec dictum fringilla. Phasellus vitae tellus orci. Etiam vulputate, nisl sit amet aliquam euismod, ante lacus volutpat risus, ut molestie nisl odio dictum nisl. Quisque non lorem rutrum, rutrum mauris eget, scelerisque augue. Donec dignissim elementum justo. Sed quis efficitur dui.
+
+Etiam auctor tempor accumsan. Morbi lacinia, ante sed varius mattis, quam velit lacinia dui, non mattis turpis metus et sapien. Nulla facilisi. Quisque odio ipsum, egestas et faucibus a, aliquam at nisl. Morbi volutpat laoreet laoreet. Etiam convallis eleifend urna vitae ornare. Integer rutrum augue sit amet nulla pellentesque vulputate. Praesent a vestibulum ex, vitae dictum lorem. Nulla facilisi. Aliquam finibus velit in interdum fringilla. Phasellus tincidunt eleifend sapien, in gravida nibh ornare a. Aenean semper sollicitudin massa ut euismod. Aenean et urna nec metus blandit consectetur. Nulla at sapien ut quam aliquet tincidunt. In elit erat, mattis eu mauris id, maximus rhoncus ipsum. Nam in ullamcorper dui.
+
+Aenean vestibulum tempus sapien, a lobortis diam mollis vel. Phasellus vitae arcu neque. Nullam porttitor bibendum nisi sit amet efficitur. Vivamus dapibus velit sit amet tortor efficitur egestas. Quisque lacus lacus, interdum id sodales quis, volutpat non velit. Sed a dignissim nibh. In dictum eu turpis sed varius. In suscipit aliquet gravida. Phasellus laoreet quis urna a placerat. Nunc molestie mauris tincidunt ipsum pretium tincidunt. Sed ac eleifend libero. Quisque et diam sit amet tortor elementum faucibus id vel lectus. Morbi sed orci est. Pellentesque rutrum nisl scelerisque, gravida metus bibendum, scelerisque ex.
+
+Quisque sed tempus enim, et tincidunt nulla. Praesent nec lorem diam. Nulla facilisi. Donec maximus, augue non dapibus venenatis, odio eros porttitor neque, id placerat ex metus a odio. Donec congue eget nisl consectetur consequat. Nunc vitae vehicula elit. Nulla id tortor nec ligula laoreet egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at felis commodo, fringilla metus a, facilisis sapien. Donec blandit cursus est, a molestie libero dignissim at. Aenean vitae justo a purus congue egestas. Nulla eleifend ipsum at ultricies sagittis. Sed quis scelerisque neque, feugiat feugiat neque. 
