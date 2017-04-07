@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "I have moved my blog to github"
+title:  Merge vs rebase
 date:   2017-04-03 10:38:19 +0200
-summary: "dupa"
+summary: another topic you can fight with your colleages
 comments: true
 ---
 and it was fun
