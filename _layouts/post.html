@@ -1,24 +1,40 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<article id="main">
+<header class="special container">
+  <span class="icon fa-mobile"></span>
+  <h2><!--[-->{{ page.title }}<!--]--></strong></h2>
+  <p><!--[-->{{ page.summary }}<!--]--></p>
+</header>
 
-<div class="post">
-  {{ content }}
-</div>
+<!-- One -->
+  <section class="wrapper style4 container">
 
-<div>
-{% if page.comments %}
-<div id="disqus_thread"></div>
-<script>
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://pbochenski.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
-</div>
+    <!-- Content -->
+      <div class="content">
+        <section>
+          {{ content }}
+        </section>
+      </div>
+
+  </section>
+
+<!-- Two -->
+  <section class="wrapper style1 container special">
+    
+      {% if page.comments %}
+        <div id="disqus_thread"></div>
+        <script>
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://pbochenski.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      {% endif %}
+    
+  </section>
+  </article>
