@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/pbochenski
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pbochenski.pl
+  * I am pbochenski (https://keybase.io/pbochenski) on keybase.
+  * I have a public key ASACh_c5xS4LldtUYAA93fRgyYJEQA_8FLHVaS-y5mdkYgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200287f739c52e0b95db5460003dddf460c98244400ffc14b1d5692fb2e66764620a",
+      "host": "keybase.io",
+      "kid": "01200287f739c52e0b95db5460003dddf460c98244400ffc14b1d5692fb2e66764620a",
+      "uid": "3565468708ae825f5069d9beaaf8e619",
+      "username": "pbochenski"
+    },
+    "merkle_root": {
+      "ctime": 1507743906,
+      "hash": "72099abda1de0973b41f5d27e6e56a9038347d06b6ea5ad60b07ab6d6c0b42cf68b4d6f74b3e551d4742ad0b1db3dd43f700c1f2ee85cc6ec7c5d4f57baa5d09",
+      "hash_meta": "96042c729055ea57824f64c36b85a3a22edfd5c016445d53d101e7d360cd05e7",
+      "seqno": 1560139
+    },
+    "service": {
+      "hostname": "pbochenski.pl",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507743924,
+  "expire_in": 504576000,
+  "prev": "48178f68edd5f76a182b5ccd73c57dc402ee1f1906583b0141668d4f6618e08a",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgAof3OcUuC5XbVGAAPd30YMmCREAP/BSx1WkvsuZnZGIKp3BheWxvYWTFA0d7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMDI4N2Y3MzljNTJlMGI5NWRiNTQ2MDAwM2RkZGY0NjBjOTgyNDQ0MDBmZmMxNGIxZDU2OTJmYjJlNjY3NjQ2MjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMDI4N2Y3MzljNTJlMGI5NWRiNTQ2MDAwM2RkZGY0NjBjOTgyNDQ0MDBmZmMxNGIxZDU2OTJmYjJlNjY3NjQ2MjBhIiwidWlkIjoiMzU2NTQ2ODcwOGFlODI1ZjUwNjlkOWJlYWFmOGU2MTkiLCJ1c2VybmFtZSI6InBib2NoZW5za2kifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDc3NDM5MDYsImhhc2giOiI3MjA5OWFiZGExZGUwOTczYjQxZjVkMjdlNmU1NmE5MDM4MzQ3ZDA2YjZlYTVhZDYwYjA3YWI2ZDZjMGI0MmNmNjhiNGQ2Zjc0YjNlNTUxZDQ3NDJhZDBiMWRiM2RkNDNmNzAwYzFmMmVlODVjYzZlYzdjNWQ0ZjU3YmFhNWQwOSIsImhhc2hfbWV0YSI6Ijk2MDQyYzcyOTA1NWVhNTc4MjRmNjRjMzZiODVhM2EyMmVkZmQ1YzAxNjQ0NWQ1M2QxMDFlN2QzNjBjZDA1ZTciLCJzZXFubyI6MTU2MDEzOX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJwYm9jaGVuc2tpLnBsIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzMifSwiY3RpbWUiOjE1MDc3NDM5MjQsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNDgxNzhmNjhlZGQ1Zjc2YTE4MmI1Y2NkNzNjNTdkYzQwMmVlMWYxOTA2NTgzYjAxNDE2NjhkNGY2NjE4ZTA4YSIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQBJTjtNCzwcXsZH2IrYMXcIpY+LOAxSjPRLTwuJLXaYXzhu0wDJo9ythxyZFGAjEkZiG87S12dLOd66+8Hpa8gCoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCC8ir+e+thXtCwsLo4LbrQcYbdBi8RWA4mYvDv5oPziSaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pbochenski
+
+==================================================================
