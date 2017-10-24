@@ -1,14 +1,10 @@
 ---
 layout: post
 title: Learning Dagger
-date:   2017-10-23 13:00 +0200
+date:   2017-10-24 13:00 +0200
 summary: part 1
 comments: true
 ---
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-change base_url parameter into module contructor parameter before posting this!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 I know IoC rule is one of the most important pattern in Object Oriented programming. I use it in my everyday work. But I never bothered to learn Dagger. For Kotlin project I used Injekt library. Learning Dagger feels like learning new language and my projects where small enough that I never needed big tool like this. But now I feel it is time for me to learn it. I will document my learning process here.
 
 Plan:
@@ -41,7 +37,7 @@ This does nothing yet, but it creates entry point to our DI graph. Lets create s
 
 {% gist 55ca6a881530f2e6131cd38aa19caa80 module.kt %}
 
-This defines RestDModule which can create Repo object. it is also annotated with @Singleton, so only one instance of this object will be created. As you can see this function has parameter url with @Named annotation. It will look for a string with name "base_url" and use it when calling provideRepo function. That is fulfilled by provideBaseUrl function, which returns named string.
+This defines RestDModule which can create Repo object. it is also annotated with @Singleton, so only one instance of this object will be created. 
 Now we need to add module to component:
 
 {% gist 55ca6a881530f2e6131cd38aa19caa80 componentWithModule.kt %}
