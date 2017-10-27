@@ -1,0 +1,3 @@
+[submodule "backend"]
+	path = backend
+	url = https://megabochen_gituser_sitecounter@sitecounter.scm.azurewebsites.net:443/sitecounter.git
