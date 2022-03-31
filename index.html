@@ -1,69 +1,605 @@
----
-layout: bigpicture
-title: Paweł Bocheński
----
-<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<div class="content">
-					<header>
-						<h2>Hey.</h2>
-					</header>
-					<p>Welcome to <strong>Paweł Bocheński</strong> homepage<br /> 
-                    Mobile developer: Android, iOS, React Native</p>
-					<footer>
-                        <a href="{{base}}/blog/" class="button style2">blog</a>
-						<a href="mailto:pbochenski@protonmail.com" class="button style2">contact</a>
-					</footer>
-				</div>
-			</section>
+<!DOCTYPE html>
+<html>
 
-		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Who I Am</h2>
-					</header>
-					<p>I'm a software developer with ten years of professional experience. <br /> 
-                    I was involved in development of Bluetooth stack and Android system. <br/>
-                    I'm interested in Open Source and mobile technologies. <br/>
-					          For my full career description please visit my profile: <a href="https://www.linkedin.com/in/pawel-bochenski-59990b17/" class="icon fa-linkedin"></a>
-                    </p>
-				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
-			</section>
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo album - Home</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/lightslider/css/lightslider.min.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+      <link rel="stylesheet" href="public/justifiedgallery/justifiedGallery.min.css" />
+  </head>
 
-		<!-- Two -->
-			<section id="two" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>What I do</h2>
-					</header>
-					<p>I make mobile apps for Android and iOS. <br />
-             I've been doing apps for Android professionally for 5 years. <br />
-             I can do native apps and hybrids using React Native. <br />
-					 In my free time I like to play with simple electronics and microprocessors.
+  <body>
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Photo album</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>
+      </nav>
+    
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums" class="justified-gallery">
+      </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix justified-gallery">
+          
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20190212_221216-scaled.jpg"data-src="media/large/20190212_221216-scaled.jpg"data-exthumbimage="media/thumbs/20190212_221216-scaled.jpg"data-filename="20190212_221216-scaled.jpg"><a href="media/large/20190212_221216-scaled.jpg"><img
+                      src="media/small/20190212_221216-scaled.jpg"
+                      width="499.02534113060426"
+                      height="300"alt="20190212_221216-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20190623_125740.jpg"data-src="media/large/20190623_125740.jpg"data-exthumbimage="media/thumbs/20190623_125740.jpg"data-filename="20190623_125740.jpg"><a href="media/large/20190623_125740.jpg"><img
+                      src="media/small/20190623_125740.jpg"
+                      width="367.34693877551024"
+                      height="300"alt="20190623_125740.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200416_233328-scaled.jpg"data-src="media/large/20200416_233328-scaled.jpg"data-exthumbimage="media/thumbs/20200416_233328-scaled.jpg"data-filename="20200416_233328-scaled.jpg"><a href="media/large/20200416_233328-scaled.jpg"><img
+                      src="media/small/20200416_233328-scaled.jpg"
+                      width="440.87256027554537"
+                      height="300"alt="20200416_233328-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200512_223410-scaled.jpg"data-src="media/large/20200512_223410-scaled.jpg"data-exthumbimage="media/thumbs/20200512_223410-scaled.jpg"data-filename="20200512_223410-scaled.jpg"><a href="media/large/20200512_223410-scaled.jpg"><img
+                      src="media/small/20200512_223410-scaled.jpg"
+                      width="212.578125"
+                      height="300"alt="20200512_223410-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200514_220634-scaled.jpg"data-src="media/large/20200514_220634-scaled.jpg"data-exthumbimage="media/thumbs/20200514_220634-scaled.jpg"data-filename="20200514_220634-scaled.jpg"><a href="media/large/20200514_220634-scaled.jpg"><img
+                      src="media/small/20200514_220634-scaled.jpg"
+                      width="424.7787610619469"
+                      height="300"alt="20200514_220634-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200525_220125-scaled.jpg"data-src="media/large/20200525_220125-scaled.jpg"data-exthumbimage="media/thumbs/20200525_220125-scaled.jpg"data-filename="20200525_220125-scaled.jpg"><a href="media/large/20200525_220125-scaled.jpg"><img
+                      src="media/small/20200525_220125-scaled.jpg"
+                      width="397.1044467425026"
+                      height="300"alt="20200525_220125-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200529_222422-scaled.jpg"data-src="media/large/20200529_222422-scaled.jpg"data-exthumbimage="media/thumbs/20200529_222422-scaled.jpg"data-filename="20200529_222422-scaled.jpg"><a href="media/large/20200529_222422-scaled.jpg"><img
+                      src="media/small/20200529_222422-scaled.jpg"
+                      width="230.859375"
+                      height="300"alt="20200529_222422-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200608_230620-scaled.jpg"data-src="media/large/20200608_230620-scaled.jpg"data-exthumbimage="media/thumbs/20200608_230620-scaled.jpg"data-filename="20200608_230620-scaled.jpg"><a href="media/large/20200608_230620-scaled.jpg"><img
+                      src="media/small/20200608_230620-scaled.jpg"
+                      width="439.10806174957116"
+                      height="300"alt="20200608_230620-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200609_222920-scaled.jpg"data-src="media/large/20200609_222920-scaled.jpg"data-exthumbimage="media/thumbs/20200609_222920-scaled.jpg"data-filename="20200609_222920-scaled.jpg"><a href="media/large/20200609_222920-scaled.jpg"><img
+                      src="media/small/20200609_222920-scaled.jpg"
+                      width="216.6796875"
+                      height="300"alt="20200609_222920-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200615_222134-scaled.jpg"data-src="media/large/20200615_222134-scaled.jpg"data-exthumbimage="media/thumbs/20200615_222134-scaled.jpg"data-filename="20200615_222134-scaled.jpg"><a href="media/large/20200615_222134-scaled.jpg"><img
+                      src="media/small/20200615_222134-scaled.jpg"
+                      width="200.390625"
+                      height="300"alt="20200615_222134-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200622_215320-scaled.jpg"data-src="media/large/20200622_215320-scaled.jpg"data-exthumbimage="media/thumbs/20200622_215320-scaled.jpg"data-filename="20200622_215320-scaled.jpg"><a href="media/large/20200622_215320-scaled.jpg"><img
+                      src="media/small/20200622_215320-scaled.jpg"
+                      width="208.7109375"
+                      height="300"alt="20200622_215320-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200624_220428-scaled.jpg"data-src="media/large/20200624_220428-scaled.jpg"data-exthumbimage="media/thumbs/20200624_220428-scaled.jpg"data-filename="20200624_220428-scaled.jpg"><a href="media/large/20200624_220428-scaled.jpg"><img
+                      src="media/small/20200624_220428-scaled.jpg"
+                      width="210.46875"
+                      height="300"alt="20200624_220428-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/IMG_20200701_092144-scaled.jpg"data-src="media/large/IMG_20200701_092144-scaled.jpg"data-exthumbimage="media/thumbs/IMG_20200701_092144-scaled.jpg"data-filename="IMG_20200701_092144-scaled.jpg"><a href="media/large/IMG_20200701_092144-scaled.jpg"><img
+                      src="media/small/IMG_20200701_092144-scaled.jpg"
+                      width="211.2890625"
+                      height="300"alt="IMG_20200701_092144-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200706_230146-scaled.jpg"data-src="media/large/20200706_230146-scaled.jpg"data-exthumbimage="media/thumbs/20200706_230146-scaled.jpg"data-filename="20200706_230146-scaled.jpg"><a href="media/large/20200706_230146-scaled.jpg"><img
+                      src="media/small/20200706_230146-scaled.jpg"
+                      width="424.30939226519337"
+                      height="300"alt="20200706_230146-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200713_175223-scaled.jpg"data-src="media/large/20200713_175223-scaled.jpg"data-exthumbimage="media/thumbs/20200713_175223-scaled.jpg"data-filename="20200713_175223-scaled.jpg"><a href="media/large/20200713_175223-scaled.jpg"><img
+                      src="media/small/20200713_175223-scaled.jpg"
+                      width="209.53125"
+                      height="300"alt="20200713_175223-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200720_223358-scaled.jpg"data-src="media/large/20200720_223358-scaled.jpg"data-exthumbimage="media/thumbs/20200720_223358-scaled.jpg"data-filename="20200720_223358-scaled.jpg"><a href="media/large/20200720_223358-scaled.jpg"><img
+                      src="media/small/20200720_223358-scaled.jpg"
+                      width="432.18908272369157"
+                      height="300"alt="20200720_223358-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/IMG_20200801_231545.jpg"data-src="media/large/IMG_20200801_231545.jpg"data-exthumbimage="media/thumbs/IMG_20200801_231545.jpg"data-filename="IMG_20200801_231545.jpg"><a href="media/large/IMG_20200801_231545.jpg"><img
+                      src="media/small/IMG_20200801_231545.jpg"
+                      width="429.19463087248323"
+                      height="300"alt="IMG_20200801_231545.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/IMG_20200807_082040-scaled.jpg"data-src="media/large/IMG_20200807_082040-scaled.jpg"data-exthumbimage="media/thumbs/IMG_20200807_082040-scaled.jpg"data-filename="IMG_20200807_082040-scaled.jpg"><a href="media/large/IMG_20200807_082040-scaled.jpg"><img
+                      src="media/small/IMG_20200807_082040-scaled.jpg"
+                      width="213.8671875"
+                      height="300"alt="IMG_20200807_082040-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/20200817_220249-scaled.jpg"data-src="media/large/20200817_220249-scaled.jpg"data-exthumbimage="media/thumbs/20200817_220249-scaled.jpg"data-filename="20200817_220249-scaled.jpg"><a href="media/large/20200817_220249-scaled.jpg"><img
+                      src="media/small/20200817_220249-scaled.jpg"
+                      width="212.4609375"
+                      height="300"alt="20200817_220249-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/IMG_20200820_223628-scaled.jpg"data-src="media/large/IMG_20200820_223628-scaled.jpg"data-exthumbimage="media/thumbs/IMG_20200820_223628-scaled.jpg"data-filename="IMG_20200820_223628-scaled.jpg"><a href="media/large/IMG_20200820_223628-scaled.jpg"><img
+                      src="media/small/IMG_20200820_223628-scaled.jpg"
+                      width="443.6741767764298"
+                      height="300"alt="IMG_20200820_223628-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/IMG_20200831_220258-scaled.jpg"data-src="media/large/IMG_20200831_220258-scaled.jpg"data-exthumbimage="media/thumbs/IMG_20200831_220258-scaled.jpg"data-filename="IMG_20200831_220258-scaled.jpg"><a href="media/large/IMG_20200831_220258-scaled.jpg"><img
+                      src="media/small/IMG_20200831_220258-scaled.jpg"
+                      width="222.1875"
+                      height="300"alt="IMG_20200831_220258-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/IMG_20200904_165234-scaled.jpg"data-src="media/large/IMG_20200904_165234-scaled.jpg"data-exthumbimage="media/thumbs/IMG_20200904_165234-scaled.jpg"data-filename="IMG_20200904_165234-scaled.jpg"><a href="media/large/IMG_20200904_165234-scaled.jpg"><img
+                      src="media/small/IMG_20200904_165234-scaled.jpg"
+                      width="211.171875"
+                      height="300"alt="IMG_20200904_165234-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/IMG_20200920_085743-scaled.jpg"data-src="media/large/IMG_20200920_085743-scaled.jpg"data-exthumbimage="media/thumbs/IMG_20200920_085743-scaled.jpg"data-filename="IMG_20200920_085743-scaled.jpg"><a href="media/large/IMG_20200920_085743-scaled.jpg"><img
+                      src="media/small/IMG_20200920_085743-scaled.jpg"
+                      width="180.8203125"
+                      height="300"alt="IMG_20200920_085743-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/IMG_20201014_072016.jpg"data-src="media/large/IMG_20201014_072016.jpg"data-exthumbimage="media/thumbs/IMG_20201014_072016.jpg"data-filename="IMG_20201014_072016.jpg"><a href="media/large/IMG_20201014_072016.jpg"><img
+                      src="media/small/IMG_20201014_072016.jpg"
+                      width="217.28665207877464"
+                      height="300"alt="IMG_20201014_072016.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/PXL_20210117_144848150.MP_-scaled.jpg"data-src="media/large/PXL_20210117_144848150.MP_-scaled.jpg"data-exthumbimage="media/thumbs/PXL_20210117_144848150.MP_-scaled.jpg"data-filename="PXL_20210117_144848150.MP_-scaled.jpg"><a href="media/large/PXL_20210117_144848150.MP_-scaled.jpg"><img
+                      src="media/small/PXL_20210117_144848150.MP_-scaled.jpg"
+                      width="206.6015625"
+                      height="300"alt="PXL_20210117_144848150.MP_-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/PXL_20210131_123031697-scaled.jpg"data-src="media/large/PXL_20210131_123031697-scaled.jpg"data-exthumbimage="media/thumbs/PXL_20210131_123031697-scaled.jpg"data-filename="PXL_20210131_123031697-scaled.jpg"><a href="media/large/PXL_20210131_123031697-scaled.jpg"><img
+                      src="media/small/PXL_20210131_123031697-scaled.jpg"
+                      width="223.2421875"
+                      height="300"alt="PXL_20210131_123031697-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/PXL_20210213_175110813-scaled.jpg"data-src="media/large/PXL_20210213_175110813-scaled.jpg"data-exthumbimage="media/thumbs/PXL_20210213_175110813-scaled.jpg"data-filename="PXL_20210213_175110813-scaled.jpg"><a href="media/large/PXL_20210213_175110813-scaled.jpg"><img
+                      src="media/small/PXL_20210213_175110813-scaled.jpg"
+                      width="426.90383546414677"
+                      height="300"alt="PXL_20210213_175110813-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/PXL_20210227_113413178-scaled.jpg"data-src="media/large/PXL_20210227_113413178-scaled.jpg"data-exthumbimage="media/thumbs/PXL_20210227_113413178-scaled.jpg"data-filename="PXL_20210227_113413178-scaled.jpg"><a href="media/large/PXL_20210227_113413178-scaled.jpg"><img
+                      src="media/small/PXL_20210227_113413178-scaled.jpg"
+                      width="421.978021978022"
+                      height="300"alt="PXL_20210227_113413178-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/PXL_20210413_201248560-scaled.jpg"data-src="media/large/PXL_20210413_201248560-scaled.jpg"data-exthumbimage="media/thumbs/PXL_20210413_201248560-scaled.jpg"data-filename="PXL_20210413_201248560-scaled.jpg"><a href="media/large/PXL_20210413_201248560-scaled.jpg"><img
+                      src="media/small/PXL_20210413_201248560-scaled.jpg"
+                      width="425.9567387687188"
+                      height="300"alt="PXL_20210413_201248560-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/PXL_20210417_060936288-scaled.jpg"data-src="media/large/PXL_20210417_060936288-scaled.jpg"data-exthumbimage="media/thumbs/PXL_20210417_060936288-scaled.jpg"data-filename="PXL_20210417_060936288-scaled.jpg"><a href="media/large/PXL_20210417_060936288-scaled.jpg"><img
+                      src="media/small/PXL_20210417_060936288-scaled.jpg"
+                      width="423.6072807501379"
+                      height="300"alt="PXL_20210417_060936288-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/PXL_20210419_204217942-scaled.jpg"data-src="media/large/PXL_20210419_204217942-scaled.jpg"data-exthumbimage="media/thumbs/PXL_20210419_204217942-scaled.jpg"data-filename="PXL_20210419_204217942-scaled.jpg"><a href="media/large/PXL_20210419_204217942-scaled.jpg"><img
+                      src="media/small/PXL_20210419_204217942-scaled.jpg"
+                      width="413.3476856835307"
+                      height="300"alt="PXL_20210419_204217942-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/PXL_20210423_055616447-scaled.jpg"data-src="media/large/PXL_20210423_055616447-scaled.jpg"data-exthumbimage="media/thumbs/PXL_20210423_055616447-scaled.jpg"data-filename="PXL_20210423_055616447-scaled.jpg"><a href="media/large/PXL_20210423_055616447-scaled.jpg"><img
+                      src="media/small/PXL_20210423_055616447-scaled.jpg"
+                      width="212.6953125"
+                      height="300"alt="PXL_20210423_055616447-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/PXL_20210805_163459150.MP_-scaled.jpg"data-src="media/large/PXL_20210805_163459150.MP_-scaled.jpg"data-exthumbimage="media/thumbs/PXL_20210805_163459150.MP_-scaled.jpg"data-filename="PXL_20210805_163459150.MP_-scaled.jpg"><a href="media/large/PXL_20210805_163459150.MP_-scaled.jpg"><img
+                      src="media/small/PXL_20210805_163459150.MP_-scaled.jpg"
+                      width="225"
+                      height="300"alt="PXL_20210805_163459150.MP_-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0272-scaled.jpg"data-src="media/large/EPSON0272-scaled.jpg"data-exthumbimage="media/thumbs/EPSON0272-scaled.jpg"data-filename="EPSON0272-scaled.jpg"><a href="media/large/EPSON0272-scaled.jpg"><img
+                      src="media/small/EPSON0272-scaled.jpg"
+                      width="211.0546875"
+                      height="300"alt="EPSON0272-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0262-scaled.jpg"data-src="media/large/EPSON0262-scaled.jpg"data-exthumbimage="media/thumbs/EPSON0262-scaled.jpg"data-filename="EPSON0262-scaled.jpg"><a href="media/large/EPSON0262-scaled.jpg"><img
+                      src="media/small/EPSON0262-scaled.jpg"
+                      width="221.015625"
+                      height="300"alt="EPSON0262-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0232-scaled.jpg"data-src="media/large/EPSON0232-scaled.jpg"data-exthumbimage="media/thumbs/EPSON0232-scaled.jpg"data-filename="EPSON0232-scaled.jpg"><a href="media/large/EPSON0232-scaled.jpg"><img
+                      src="media/small/EPSON0232-scaled.jpg"
+                      width="400"
+                      height="300"alt="EPSON0232-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0222-scaled.jpg"data-src="media/large/EPSON0222-scaled.jpg"data-exthumbimage="media/thumbs/EPSON0222-scaled.jpg"data-filename="EPSON0222-scaled.jpg"><a href="media/large/EPSON0222-scaled.jpg"><img
+                      src="media/small/EPSON0222-scaled.jpg"
+                      width="219.2578125"
+                      height="300"alt="EPSON0222-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0212-scaled.jpg"data-src="media/large/EPSON0212-scaled.jpg"data-exthumbimage="media/thumbs/EPSON0212-scaled.jpg"data-filename="EPSON0212-scaled.jpg"><a href="media/large/EPSON0212-scaled.jpg"><img
+                      src="media/small/EPSON0212-scaled.jpg"
+                      width="222.5390625"
+                      height="300"alt="EPSON0212-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON020_2-scaled.jpg"data-src="media/large/EPSON020_2-scaled.jpg"data-exthumbimage="media/thumbs/EPSON020_2-scaled.jpg"data-filename="EPSON020_2-scaled.jpg"><a href="media/large/EPSON020_2-scaled.jpg"><img
+                      src="media/small/EPSON020_2-scaled.jpg"
+                      width="403.7854889589906"
+                      height="300"alt="EPSON020_2-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON019_2.jpg"data-src="media/large/EPSON019_2.jpg"data-exthumbimage="media/thumbs/EPSON019_2.jpg"data-filename="EPSON019_2.jpg"><a href="media/large/EPSON019_2.jpg"><img
+                      src="media/small/EPSON019_2.jpg"
+                      width="209.35861234368696"
+                      height="300"alt="EPSON019_2.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0182-scaled.jpg"data-src="media/large/EPSON0182-scaled.jpg"data-exthumbimage="media/thumbs/EPSON0182-scaled.jpg"data-filename="EPSON0182-scaled.jpg"><a href="media/large/EPSON0182-scaled.jpg"><img
+                      src="media/small/EPSON0182-scaled.jpg"
+                      width="222.890625"
+                      height="300"alt="EPSON0182-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0162-scaled.jpg"data-src="media/large/EPSON0162-scaled.jpg"data-exthumbimage="media/thumbs/EPSON0162-scaled.jpg"data-filename="EPSON0162-scaled.jpg"><a href="media/large/EPSON0162-scaled.jpg"><img
+                      src="media/small/EPSON0162-scaled.jpg"
+                      width="224.296875"
+                      height="300"alt="EPSON0162-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0143.jpg"data-src="media/large/EPSON0143.jpg"data-exthumbimage="media/thumbs/EPSON0143.jpg"data-filename="EPSON0143.jpg"><a href="media/large/EPSON0143.jpg"><img
+                      src="media/small/EPSON0143.jpg"
+                      width="421.69648009232543"
+                      height="300"alt="EPSON0143.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/img20210530_14590841_0259282-scaled.jpg"data-src="media/large/img20210530_14590841_0259282-scaled.jpg"data-exthumbimage="media/thumbs/img20210530_14590841_0259282-scaled.jpg"data-filename="img20210530_14590841_0259282-scaled.jpg"><a href="media/large/img20210530_14590841_0259282-scaled.jpg"><img
+                      src="media/small/img20210530_14590841_0259282-scaled.jpg"
+                      width="211.5234375"
+                      height="300"alt="img20210530_14590841_0259282-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/scan12-scaled.jpg"data-src="media/large/scan12-scaled.jpg"data-exthumbimage="media/thumbs/scan12-scaled.jpg"data-filename="scan12-scaled.jpg"><a href="media/large/scan12-scaled.jpg"><img
+                      src="media/small/scan12-scaled.jpg"
+                      width="424.30939226519337"
+                      height="300"alt="scan12-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/obraz1-scaled.jpg"data-src="media/large/obraz1-scaled.jpg"data-exthumbimage="media/thumbs/obraz1-scaled.jpg"data-filename="obraz1-scaled.jpg"><a href="media/large/obraz1-scaled.jpg"><img
+                      src="media/small/obraz1-scaled.jpg"
+                      width="424.0750966316952"
+                      height="300"alt="obraz1-scaled.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0082.jpg"data-src="media/large/EPSON0082.jpg"data-exthumbimage="media/thumbs/EPSON0082.jpg"data-filename="EPSON0082.jpg"><a href="media/large/EPSON0082.jpg"><img
+                      src="media/small/EPSON0082.jpg"
+                      width="423.1651376146789"
+                      height="300"alt="EPSON0082.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0092.jpg"data-src="media/large/EPSON0092.jpg"data-exthumbimage="media/thumbs/EPSON0092.jpg"data-filename="EPSON0092.jpg"><a href="media/large/EPSON0092.jpg"><img
+                      src="media/small/EPSON0092.jpg"
+                      width="426.36103151862466"
+                      height="300"alt="EPSON0092.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0103.jpg"data-src="media/large/EPSON0103.jpg"data-exthumbimage="media/thumbs/EPSON0103.jpg"data-filename="EPSON0103.jpg"><a href="media/large/EPSON0103.jpg"><img
+                      src="media/small/EPSON0103.jpg"
+                      width="424.0719257540603"
+                      height="300"alt="EPSON0103.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0112.jpg"data-src="media/large/EPSON0112.jpg"data-exthumbimage="media/thumbs/EPSON0112.jpg"data-filename="EPSON0112.jpg"><a href="media/large/EPSON0112.jpg"><img
+                      src="media/small/EPSON0112.jpg"
+                      width="417.64371087080247"
+                      height="300"alt="EPSON0112.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON01212.jpg"data-src="media/large/EPSON01212.jpg"data-exthumbimage="media/thumbs/EPSON01212.jpg"data-filename="EPSON01212.jpg"><a href="media/large/EPSON01212.jpg"><img
+                      src="media/small/EPSON01212.jpg"
+                      width="431.0544611819235"
+                      height="300"alt="EPSON01212.jpg"/>
+              </a>
+          
+          </div>      
+          <div class="albumList"
+              data-sub-html=""
+              data-download-url="media/large/EPSON0172.jpg"data-src="media/large/EPSON0172.jpg"data-exthumbimage="media/thumbs/EPSON0172.jpg"data-filename="EPSON0172.jpg"><a href="media/large/EPSON0172.jpg"><img
+                      src="media/small/EPSON0172.jpg"
+                      width="419.6900114810563"
+                      height="300"alt="EPSON0172.jpg"/>
+              </a>
+          
+          </div>  </ul>
+    
+      <!--
+        Pagination
+      -->
+    
+      <!--
+        Zip file link
+      -->
+    
+      <!--
+        Optional footer
+      -->
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
 
-                     </p>
-				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
-			</section>
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightslider/js/lightslider.min.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+    <script src="public/justifiedgallery/jquery.justifiedGallery.min.js"></script>
 
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
-				<div class="content">
-					<header>
-						<h2>My Work</h2>
-						
-					</header>
-                    <!--<div class="gallery">-->
-                        <article class="from-left">
-								<a href="https://play.google.com/store/apps/details?id=pl.orendi.bit" class="image">
-					                <img src="images/bitmaszyna.png" title="Bitmaszyna" alt="" />
-                                    </a>
-                        </article>
-                    
-				<!--</div>-->
-                <footer>
-                            <a href="#intro" class="button style2 up">up</a>
-                    </footer>
-			</section>
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true,
+          exThumbImage: 'data-exthumbimage',
+        });
+
+        // Init justified gallery for albums
+        $("#albums").justifiedGallery({
+          margins: 10,
+          rowHeight: 300,
+          maxRowHeight: 325,
+        });
+
+        // Init justified gallery for photos
+        $("#media").justifiedGallery({
+          selector: '.albumList',
+          waitThumbnailsLoad: false,
+          margins: 10,
+          rowHeight: 250,
+          maxRowHeight: 275,
+        });
+      });
+    </script>
+
+      <script id="slider-js" data-interval="">
+        $(document).ready(function () {
+          let waitTime = 1000;
+
+          try {
+            waitTime = parseInt($("#slider-js").data("interval"));
+          } catch (e) {
+            console.error("Invalid speed value for slider: " + waitTime + "\n" + e);
+          }
+
+          $("#lightSlider").lightSlider({
+            auto: true,
+            loop: true,
+            item: 1,
+            gallery: true,
+            pause: waitTime,
+            onSliderLoad: (el) => {
+              el.lightGallery({
+                selector: "#lightSlider li"
+              })
+            }
+          });
+        });
+      </script>
+
+
+  </body>
+
+</html>
