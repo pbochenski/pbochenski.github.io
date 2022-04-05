@@ -41,12 +41,13 @@ a {
 header {
   background: #fff;
   color: #444;
-  font-size: 1.8em;
+  font-size: 2em;
   margin-bottom: 1.1em;
 }
 h1 {
   display: inline-block;
   font-weight: bold;
+  font-size: 1.7em;
 }
 h1 a {
   color: #444;
