@@ -8,6 +8,13 @@
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <link rel="stylesheet" href="{{ site.baseurl }}/public/core.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/public/theme.css" />
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/public/lightgallery/css/lightgallery.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/public/lightslider/css/lightslider.min.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/public/videojs/video-js.min.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/public/lightgallery/css/lg-exif.min.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/public/justifiedgallery/justifiedGallery.min.css" />
+
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.png" />
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
   </head>
@@ -16,5 +23,73 @@
       {% include top.html %}
       {{ content }}
     </div>
+
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightslider/js/lightslider.min.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+    <script src="public/justifiedgallery/jquery.justifiedGallery.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true,
+          exThumbImage: 'data-exthumbimage',
+        });
+
+        // Init justified gallery for albums
+        $("#albums").justifiedGallery({
+          margins: 10,
+          rowHeight: 300,
+          maxRowHeight: 325,
+        });
+
+        // Init justified gallery for photos
+        $("#media").justifiedGallery({
+          selector: '.albumList',
+          waitThumbnailsLoad: false,
+          margins: 10,
+          rowHeight: 250,
+          maxRowHeight: 275,
+        });
+      });
+    </script>
+
+      <script id="slider-js" data-interval="">
+        $(document).ready(function () {
+          let waitTime = 1000;
+
+          try {
+            waitTime = parseInt($("#slider-js").data("interval"));
+          } catch (e) {
+            console.error("Invalid speed value for slider: " + waitTime + "\n" + e);
+          }
+
+          $("#lightSlider").lightSlider({
+            auto: true,
+            loop: true,
+            item: 1,
+            gallery: true,
+            pause: waitTime,
+            onSliderLoad: (el) => {
+              el.lightGallery({
+                selector: "#lightSlider li"
+              })
+            }
+          });
+        });
+      </script>
   </body>
 </html>
