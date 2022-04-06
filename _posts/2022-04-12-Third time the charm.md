@@ -4,7 +4,7 @@ author: bochen
 ---
 this butterknife was broken 2 times already.
 
-<ul id="media" class="clearfix justified-gallery">
+<ul id="media" class="justified-gallery">
     <div class="albumList"
         data-sub-html=""
         data-download-url="/assets/images/nozyk/1.jpg"
