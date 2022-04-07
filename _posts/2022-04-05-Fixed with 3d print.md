@@ -4,7 +4,7 @@ author: bochen
 ---
 Fixed phone holder from old nokia mount to any smartphone.
 
-<ul id="media" class="justified-gallery">
+<ul id="media">
     <div class="albumList"
         data-sub-html=""
         data-download-url="/assets/images/fixed_3d_print/1.jpg"
