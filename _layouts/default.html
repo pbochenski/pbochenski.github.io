@@ -43,17 +43,11 @@
           thumbWidth: 80,
           controls: true,
           loop : false,
-          download: true,
-          counter: true,
+          download: false,
+          counter: false,
           videojs: true,
           exThumbImage: 'data-exthumbimage',
-        });
-
-        // Init justified gallery for albums
-        $("#albums").justifiedGallery({
-          margins: 10,
-          rowHeight: 300,
-          maxRowHeight: 325,
+          startClass:'',
         });
 
         // Init justified gallery for photos
@@ -63,33 +57,11 @@
           margins: 10,
           rowHeight: 250,
           maxRowHeight: 275,
+          captions: false,
+          cssAnimation: false,
+          imagesAnimationDuration: 0,
         });
       });
     </script>
-
-      <script id="slider-js" data-interval="">
-        $(document).ready(function () {
-          let waitTime = 1000;
-
-          try {
-            waitTime = parseInt($("#slider-js").data("interval"));
-          } catch (e) {
-            console.error("Invalid speed value for slider: " + waitTime + "\n" + e);
-          }
-
-          $("#lightSlider").lightSlider({
-            auto: true,
-            loop: true,
-            item: 1,
-            gallery: true,
-            pause: waitTime,
-            onSliderLoad: (el) => {
-              el.lightGallery({
-                selector: "#lightSlider li"
-              })
-            }
-          });
-        });
-      </script>
   </body>
 </html>
