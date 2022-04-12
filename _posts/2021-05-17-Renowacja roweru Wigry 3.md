@@ -1,6 +1,7 @@
 ---
 layout: post
 author: bochen
+tags: project
 ---
 Repainted old Wigry 3 bicycle from violet to black.
 

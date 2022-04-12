@@ -1,6 +1,7 @@
 ---
 layout: post
 author: bochen
+tags: fixed
 ---
 this butterknife was broken 2 times already.
 
