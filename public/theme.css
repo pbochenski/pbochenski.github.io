@@ -8,7 +8,7 @@ html {
 html,
 body {
   padding: 0;
-  margin: 0;
+  margin:0;
 }
 body {
   background: #fff;
@@ -18,8 +18,18 @@ body {
   font-weight: lighter;
   margin-bottom: 1em;
 }
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  body {
+    margin:0 10em 0 10em;
+  }
+}
 a {
   text-decoration: none;
+}
+p {
+  margin:0em 0em 1em 0em;
 }
 .clearfix:after {
   content: " ";

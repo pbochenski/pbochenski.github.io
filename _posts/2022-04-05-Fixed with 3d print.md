@@ -2,6 +2,7 @@
 layout: post
 author: bochen
 tags: fixed
+comments: true
 ---
 Fixed phone holder from old nokia mount to any smartphone.
 
