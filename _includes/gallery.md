@@ -1,6 +1,6 @@
 <ul id="media" class="clearfix justified-gallery">
 
-  {% for number in (1..72) reversed %}
+  {% for number in (1..73) reversed %}
     {% assign padded = number | prepend: '000' | slice: -3, 3 %}
       <div
         class="albumList"
