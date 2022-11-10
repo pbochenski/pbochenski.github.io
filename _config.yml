@@ -33,5 +33,12 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-
+  - generate_miniatures.py
+collections:
+  gallery:
+    output: false
+feed:
+  excerpt_only: false
+  collections:
+   - gallery
   

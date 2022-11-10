@@ -1,17 +1,16 @@
 <ul id="media" class="clearfix justified-gallery">
 
-  {% for number in (1..79) reversed %}
-    {% assign padded = number | prepend: '000' | slice: -3, 3 %}
+  {% for image in site.gallery reversed %}
       <div
         class="albumList"
         data-sub-html=""
-        data-download-url="media/large/{{padded}}.jpg"
-        data-src="media/large/{{padded}}.jpg"
-        data-exthumbimage="media/thumbs/{{padded}}.jpg"
-        data-filename="{{padded}}.jpg"
+        data-download-url="{{image.large}}"
+        data-src="{{image.large}}"
+        data-exthumbimage="{{image.thumb}}"
+        data-filename="{{image.filename}}"
       >
-        <a href="media/large/{{padded}}.jpg">
-          <img src="media/small/{{padded}}.jpg" height="300" />
+        <a href="{{image.large}}">
+          <img src="{{image.small}}" height="300" />
         </a>
       </div>
   {% endfor %}
