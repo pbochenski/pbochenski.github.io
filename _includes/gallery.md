@@ -7,7 +7,7 @@
         data-download-url="{{image.large}}"
         data-src="{{image.large}}"
         data-exthumbimage="{{image.thumb}}"
-        data-filename="{{image.filename}}"
+        data-filename="{{image.name}}"
       >
         <a href="{{image.large}}">
           <img src="{{image.small}}" height="300" />
