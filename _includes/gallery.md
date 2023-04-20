@@ -8,14 +8,13 @@
     {% if year == "2023" %}
       <div
         class="albumList"
-        data-sub-html=""
+        data-sub-html="{{image.name}}"
         data-download-url="{{image.large}}"
         data-src="{{image.large}}"
         data-exthumbimage="{{image.thumb}}"
-        data-filename="{{image.name}}"
       >
         <a href="{{image.large}}">
-          <img alt="{{image.name}}" src="{{image.small}}" height="300" />
+          <img src="{{image.small}}" height="300" />
         </a>
       </div>
     {% endif %}
