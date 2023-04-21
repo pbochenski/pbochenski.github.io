@@ -14,7 +14,7 @@
         data-exthumbimage="{{image.thumb}}"
       >
         <a href="{{image.large}}">
-          <img src="{{image.small}}" height="300" />
+          <img alt="{{image.name}}" src="{{image.small}}" height="300" />
         </a>
       </div>
     {% endif %}
