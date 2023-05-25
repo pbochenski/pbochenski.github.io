@@ -34,8 +34,7 @@ else:
     print("no input param, miniatures creation skipped")
 
 dir_name = "./media/large"
-list_of_files = sorted( filter( lambda x: os.path.isfile(os.path.join(dir_name, x)),
-                        os.listdir(dir_name) ) )
+list_of_files = sorted( filter( lambda x: os.path.isfile(os.path.join(dir_name, x)), os.listdir(dir_name) ) )
 for file_name in list_of_files:
     file = Path(file_name).stem
     if Path("./_gallery/{0}.md".format(file)).exists():
