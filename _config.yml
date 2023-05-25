@@ -37,8 +37,14 @@ exclude:
 collections:
   gallery:
     output: false
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "gallery"
+    values:
+      layout: "gallery_rss"
 feed:
   excerpt_only: false
   collections:
    - gallery
-  
