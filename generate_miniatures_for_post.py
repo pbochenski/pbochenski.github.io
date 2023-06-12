@@ -51,7 +51,8 @@ if get_arg(1) != '':
             for root, dirs, files in os.walk(path):
                 for file in sorted(files):
                     file_path = os.path.join(root, file)
-                    createMiniatures(postName,file_path)
+                    if file.endswith("jpg"):
+                        createMiniatures(postName,file_path)
         else:
             createMiniatures(path)
 
