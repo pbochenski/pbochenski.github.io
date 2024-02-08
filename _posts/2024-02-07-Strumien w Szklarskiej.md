@@ -5,6 +5,8 @@ tags: painting proces
 comments: true
 ---
 Tradycyjnie proces obrazu "Strumien w Szklarskiej"
+
+
 Olej na płótnie, 30x40cm.
 Pierwsze zdjęcie jest referencją, drugie szkicem w digitalu.  
 
