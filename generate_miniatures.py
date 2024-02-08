@@ -12,7 +12,7 @@ def get_arg(index):
     else:
         return sys.argv[index]
 
-fileCount = len(next(os.walk("/Users/bochen/Documents/kod/pbochenski.github.io/media/thumbs"))[2])
+fileCount = len(next(os.walk("/Users/pawel.bochenski/Documents/kod/pbochenski.github.io/media/thumbs"))[2])
 newFileName = newFileName = '{0:03d}.jpg'.format(fileCount)
 
 if get_arg(1) != '':
