@@ -12,7 +12,7 @@ def get_arg(index):
         return sys.argv[index]
     
 def createMiniatures(post, fileName):
-    folder = "/Users/pawel.bochenski/Documents/kod/pbochenski.github.io/assets/images/{0}/".format(post)
+    folder = "/Users/pawel.bochenski/Documents/kod/moje/pbochenski.github.io/assets/images/{0}/".format(post)
     os.makedirs(folder, exist_ok=True)
     fileCount = int(len(next(os.walk(folder))[2]) / 3)
     newFileName = newFileName = '{0:03d}.jpg'.format(fileCount)
