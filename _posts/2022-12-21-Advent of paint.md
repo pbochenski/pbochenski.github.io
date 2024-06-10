@@ -1,7 +1,7 @@
 ---
 layout: post
 author: bochen
-tags: painting
+tags: malowanie
 comments: true
 ---
 This year I decided to do Advent of paint. 

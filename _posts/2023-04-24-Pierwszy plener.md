@@ -1,7 +1,7 @@
 ---
 layout: post
 author: bochen
-tags: painting plener
+tags: malowanie plener
 comments: true
 ---
 Pierwszy plener w zyciu.

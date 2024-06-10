@@ -1,7 +1,7 @@
 ---
 layout: post
 author: bochen
-tags: painting proces
+tags: malowanie proces
 comments: true
 ---
 Namalowałem największy obraz olejny w życiu. 

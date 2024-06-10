@@ -1,7 +1,7 @@
 ---
 layout: post
 author: bochen
-tags: painting
+tags: malowanie
 comments: true
 ---
 Bordeaux Opera house, Watercolor on paper.

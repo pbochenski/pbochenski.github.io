@@ -6,19 +6,12 @@ layout: default
 <div class="row">
   <div class="column">
     <ul>
-      {% assign years = site.posts
-        | group_by_exp: "post", "post.date | date: '%Y'"
-     %}
-     {% for year in years %}
-      <h1>{{ year.name }}</h1>
-
-        {% for post in year.items %}
-        <li>
-          <h2><a href="{{ post.url }}">{{ post.title }} - {{post.date | date_to_string}}</a></h2>
-          {{ post.excerpt }}
-        </li>
-        {% endfor %}
-      {% endfor %} 
+        {% for post in site.tags[page.tag] %}
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }} - {{post.date | date_to_string}}</a></h2>
+        {{ post.excerpt }}
+      </li>
+      {% endfor %}
     </ul>
   </div>
   <div class="column_small" >
@@ -44,3 +37,4 @@ layout: default
 
   </div>
 </div>
+

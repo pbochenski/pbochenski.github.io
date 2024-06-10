@@ -1,7 +1,7 @@
 ---
 layout: post
 author: bochen
-tags: zdjecia photos bw
+tags: zdjecia
 comments: true
 ---
 Klika czarno białych zdjęć zrobionych na kliszy.

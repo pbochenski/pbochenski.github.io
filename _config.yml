@@ -48,3 +48,4 @@ feed:
   excerpt_only: false
   collections:
    - gallery
+tag_dir: "tag"

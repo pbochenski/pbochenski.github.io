@@ -1,7 +1,7 @@
 ---
 layout: post
 author: bochen
-tags: painting plener
+tags: malowanie plener
 comments: true
 ---
 Rysunki wykonane podczas wakacji w Rewalu i na Kaszubach w 2023 roku.

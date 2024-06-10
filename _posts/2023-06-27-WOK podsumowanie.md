@@ -1,7 +1,7 @@
 ---
 layout: post
 author: bochen
-tags: painting
+tags: malowanie
 comments: true
 ---
 Podsumowanie roku w WOK

@@ -1,7 +1,7 @@
 ---
 layout: post
 author: bochen
-tags: painting proces
+tags: malowanie proces timelapse
 comments: true
 ---
 timelapse na youtube

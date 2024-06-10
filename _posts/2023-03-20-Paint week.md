@@ -1,7 +1,7 @@
 ---
 layout: post
 author: bochen
-tags: painting
+tags: malowanie
 comments: true
 ---
 I took part in [Paint Coach](https://www.youtube.com/@paintcoach) paint week.

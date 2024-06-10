@@ -1,7 +1,7 @@
 ---
 layout: post
 author: bochen
-tags: painting project drawing rewind
+tags: rysowanie podsumowanie
 comments: true
 ---
 Podsumowanie grudnia i roku.  
