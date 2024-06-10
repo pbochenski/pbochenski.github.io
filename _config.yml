@@ -34,6 +34,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - generate_miniatures.py
+  - generate_miniatures_for_post.py
 collections:
   gallery:
     output: false
