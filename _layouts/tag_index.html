@@ -4,17 +4,7 @@ layout: default
 ---
 
 <div class="row">
-  <div class="column">
-    <ul>
-        {% for post in site.tags[page.tag] %}
-      <li>
-        <h2><a href="{{ post.url }}">{{ post.title }} - {{post.date | date_to_string}}</a></h2>
-        {{ post.excerpt }}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="column_small" >
+  <div class="column right" >
     <h2>Tagi</h2><br />
     <!-- chmura tagów -->
     {% assign all_tags = '' | split: ',' %}
@@ -36,5 +26,17 @@ layout: default
       {% endfor %}
 
   </div>
+  
+  <div class="column">
+    <ul>
+        {% for post in site.tags[page.tag] %}
+      <li>
+        <h2><a href="{{ post.url }}">{{ post.title }} - {{post.date | date_to_string}}</a></h2>
+        {{ post.excerpt }}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
 </div>
 

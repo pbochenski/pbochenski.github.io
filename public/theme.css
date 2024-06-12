@@ -184,15 +184,26 @@ nav.pagination a {
 }
 
 .column {
-  flex: 50%;
+  margin: 1em;
 }
 
-.column_small {
-  flex: 25%;
+.right {
+  margin-left: auto;
+  order: 2;
 }
 
 @media screen and (max-width: 600px) {
-  .column_small {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right {
+    order: 0;
+  }
+
+  .column {
     width: 100%;
+    margin: 1em;
   }
 }
