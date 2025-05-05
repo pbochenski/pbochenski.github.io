@@ -94,6 +94,15 @@
     
     <script src="/public/justifiedgallery/jquery.justifiedGallery.min.js"></script>
 
+    <script type="text/javascript">
+      lightGallery(document.getElementById('y2025'), {
+          plugins: [lgZoom, lgThumbnail, lgFullscreen],
+          speed: 500,
+          thumbnail: true,
+          allowMediaOverlap: false,
+          appendSubHtmlTo: ".lg-item",
+      });
+    </script>
     
     <script type="text/javascript">
       lightGallery(document.getElementById('y2024'), {
@@ -177,6 +186,21 @@
           captions: false,
           cssAnimation: false,
           imagesAnimationDuration: 0,
+        });
+      });
+
+      $(document).ready(function() {
+        // Init justified gallery for photos
+        $("#y2025").justifiedGallery({
+          selector: '.albumList',
+          waitThumbnailsLoad: false,
+          margins: 10,
+          rowHeight: 250,
+          maxRowHeight: 275,
+          captions: true,
+          cssAnimation: false,
+          imagesAnimationDuration: 0,
+          lastRow: 'center',
         });
       });
 

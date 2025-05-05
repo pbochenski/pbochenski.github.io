@@ -68,6 +68,12 @@
     <ul>
         
       <li>
+        <h2><a href="/blog/05-05-2025-Maj%C3%B3wka-2025.html">Majówka 2025 - 05 May 2025</a></h2>
+        <p>Podsumownie majówki 2025</p>
+
+      </li>
+      
+      <li>
         <h2><a href="/blog/08-28-2024-Najlepsze-%C4%87wiczenie.html">Najlepsze ćwiczenie - 28 Aug 2024</a></h2>
         <p>Najlepsza rada jaką znalałem w sieci.</p>
 
@@ -274,6 +280,15 @@
     
     <script src="/public/justifiedgallery/jquery.justifiedGallery.min.js"></script>
 
+    <script type="text/javascript">
+      lightGallery(document.getElementById('y2025'), {
+          plugins: [lgZoom, lgThumbnail, lgFullscreen],
+          speed: 500,
+          thumbnail: true,
+          allowMediaOverlap: false,
+          appendSubHtmlTo: ".lg-item",
+      });
+    </script>
     
     <script type="text/javascript">
       lightGallery(document.getElementById('y2024'), {
@@ -357,6 +372,21 @@
           captions: false,
           cssAnimation: false,
           imagesAnimationDuration: 0,
+        });
+      });
+
+      $(document).ready(function() {
+        // Init justified gallery for photos
+        $("#y2025").justifiedGallery({
+          selector: '.albumList',
+          waitThumbnailsLoad: false,
+          margins: 10,
+          rowHeight: 250,
+          maxRowHeight: 275,
+          captions: true,
+          cssAnimation: false,
+          imagesAnimationDuration: 0,
+          lastRow: 'center',
         });
       });
 
