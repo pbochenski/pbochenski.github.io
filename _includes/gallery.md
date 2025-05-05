@@ -1,4 +1,27 @@
 
+
+<div style="text-align: center">2025</div>
+
+<ul id="y2025" class="clearfix justified-gallery">
+
+  {% for image in site.gallery reversed %}
+    {% assign year = image.date | date: "%Y" %}
+    {% if year == "2025" %}
+      <div
+        class="albumList"
+        data-sub-html="{{image.name}}"
+        data-download-url="{{image.large}}"
+        data-src="{{image.large}}"
+        data-exthumbimage="{{image.thumb}}"
+      >
+        <a href="{{image.large}}">
+          <img alt="{{image.name}}" src="{{image.small}}" height="300" />
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</ul>
+
 <div style="text-align: center">2024</div>
 
 <ul id="y2024" class="clearfix justified-gallery">
