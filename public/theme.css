@@ -190,6 +190,7 @@ nav.pagination a {
 .right {
   margin-left: auto;
   order: 2;
+  max-width: 20em;
 }
 
 @media screen and (max-width: 600px) {
